@@ -9,17 +9,17 @@ exports[`<CartCount/> matches the snapshot 1`] = `
     <CSSTransition
       className="count"
       classNames="count"
-      key="10"
+      key="11"
       timeout={
         Object {
-          "enter": 4000,
-          "exit": 4000,
+          "enter": 400,
+          "exit": 400,
         }
       }
       unmountOnExit={true}
     >
       <CartCount__Dot>
-        10
+        11
       </CartCount__Dot>
     </CSSTransition>
   </TransitionGroup>
@@ -38,8 +38,8 @@ exports[`<CartCount/> updates via props 1`] = `
       key="50"
       timeout={
         Object {
-          "enter": 4000,
-          "exit": 4000,
+          "enter": 400,
+          "exit": 400,
         }
       }
       unmountOnExit={true}
@@ -64,8 +64,8 @@ exports[`<CartCount/> updates via props 2`] = `
       key="10"
       timeout={
         Object {
-          "enter": 4000,
-          "exit": 4000,
+          "enter": 400,
+          "exit": 400,
         }
       }
       unmountOnExit={true}

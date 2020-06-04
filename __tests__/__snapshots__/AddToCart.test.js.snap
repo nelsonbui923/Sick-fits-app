@@ -6,6 +6,6 @@ exports[`<AddToCart/> renders and matches the snap shot 1`] = `
   onClick={[Function]}
 >
   Add
-   to cart
+   To Cart 🛒
 </button>
 `;

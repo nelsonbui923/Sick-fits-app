@@ -28,8 +28,8 @@ describe('<PleaseSignIn/>', () => {
     );
     await wait();
     wrapper.update();
-    expect(wrapper.text()).toContain("Please Sign in before selling anything!");
-    const SignIn = wrapper.find('SignIn');
+    expect(wrapper.text()).toContain('Please Sign In before Continuing');
+    const SignIn = wrapper.find('Signin');
     expect(SignIn.exists()).toBe(true);
   });
 

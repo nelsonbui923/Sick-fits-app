@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
-import {TransitionGroup, CSSTransition} from 'react-transition-group';
 
 const AnimationStyles = styled.span`
   position: relative;
@@ -28,33 +28,36 @@ const AnimationStyles = styled.span`
   }
 `;
 
-
 const Dot = styled.div`
-    background: ${props => props.theme.red};
-    color: white;
-    border-radius: 50%;
-    padding: 0.5rem;
-    line-height: 2rem;
-    min-width: 3rem;
-    margin-left: 1rem;
-    font-weight: 100;
-    font-feature-settings: 'tnum';
-    font-variant-numeric: tabular-nums;
+  background: ${props => props.theme.red};
+  color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  line-height: 2rem;
+  min-width: 3rem;
+  margin-left: 1rem;
+  font-weight: 100;
+  font-feature-settings: 'tnum';
+  font-variant-numeric: tabular-nums;
 `;
 
-const CartCount = ({count}) => (
-    <AnimationStyles>
-        <TransitionGroup>
-            <CSSTransition 
-            unmountOnExit
-            className="count" 
-            classNames="count" 
-            key={count} 
-            timeout={{enter: 4000, exit: 4000}}>
-                <Dot>{count}</Dot>
-            </CSSTransition>
-        </TransitionGroup>
-    </AnimationStyles>
-)
+const CartCount = ({ count }) => (
+  <AnimationStyles>
+    <TransitionGroup>
+      <CSSTransition
+        unmountOnExit
+        className="count"
+        classNames="count"
+        key={count}
+        timeout={{ enter: 400, exit: 400 }}
+      >
+        <Dot>{count}</Dot>
+      </CSSTransition>
+    </TransitionGroup>
+  </AnimationStyles>
+);
 
+CartCount.propTypes = {
+  count: PropTypes.number.isRequired,
+};
 export default CartCount;

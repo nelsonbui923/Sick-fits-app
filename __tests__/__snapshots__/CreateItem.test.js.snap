@@ -21,7 +21,7 @@ exports[`<CreateItem/> renders and matches snapshot 1`] = `
         id="file"
         name="file"
         onChange={[Function]}
-        placeholder="Upload an Image"
+        placeholder="Upload an image"
         required={true}
         type="file"
       />
@@ -62,7 +62,7 @@ exports[`<CreateItem/> renders and matches snapshot 1`] = `
         id="description"
         name="description"
         onChange={[Function]}
-        placeholder="Enter a Description"
+        placeholder="Enter A Description"
         required={true}
         value=""
       />

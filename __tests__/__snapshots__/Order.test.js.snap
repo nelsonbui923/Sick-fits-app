@@ -2,7 +2,7 @@
 
 exports[`<Order/> renders the order 1`] = `
 <div
-  className="OrderStyles-sc-4oqalm-0 camMij"
+  className="OrderStyles-sc-4oqalm-0 eDzsVm"
   data-test="order"
 >
   <SideEffect(Head)>
@@ -18,7 +18,7 @@ exports[`<Order/> renders the order 1`] = `
   </p>
   <p>
     <span>
-      Charge:
+      Charge
     </span>
     <span>
       ch_123
@@ -26,10 +26,10 @@ exports[`<Order/> renders the order 1`] = `
   </p>
   <p>
     <span>
-      Date:
+      Date
     </span>
     <span>
-      March 31, 2018 5:00 PM
+      March 31, 2018 8:00 PM
     </span>
   </p>
   <p>
@@ -74,6 +74,10 @@ exports[`<Order/> renders the order 1`] = `
           $42.34
         </p>
         <p>
+          SubTotal: 
+          $42.34
+        </p>
+        <p>
           et modi tenetur amet modi reprehenderit omnis
         </p>
       </div>
@@ -98,6 +102,10 @@ exports[`<Order/> renders the order 1`] = `
         </p>
         <p>
           Each: 
+          $42.34
+        </p>
+        <p>
+          SubTotal: 
           $42.34
         </p>
         <p>

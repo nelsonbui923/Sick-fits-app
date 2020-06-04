@@ -12,7 +12,7 @@ exports[`<RequestReset/> renders and matches snapshot 1`] = `
     disabled={false}
   >
     <h2>
-      Change your password
+      Request a password reset
     </h2>
     <DisplayError
       error={Object {}}
@@ -24,15 +24,15 @@ exports[`<RequestReset/> renders and matches snapshot 1`] = `
       <input
         name="email"
         onChange={[Function]}
-        placeholder="Email"
+        placeholder="email"
         type="email"
         value=""
       />
     </label>
     <button
-      type="Submit"
+      type="submit"
     >
-      Request a reset!
+      Request Reset!
     </button>
   </fieldset>
 </form>

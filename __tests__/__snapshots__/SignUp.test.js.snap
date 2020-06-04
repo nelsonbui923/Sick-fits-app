@@ -11,7 +11,7 @@ exports[`<Signup/> renders and matches snapshot 1`] = `
     disabled={false}
   >
     <h2>
-      Sign up for an account
+      Sign Up for An Account
     </h2>
     <DisplayError
       error={Object {}}
@@ -23,37 +23,37 @@ exports[`<Signup/> renders and matches snapshot 1`] = `
       <input
         name="email"
         onChange={[Function]}
-        placeholder="Email"
+        placeholder="email"
         type="email"
         value=""
       />
     </label>
     <label
-      htmlFor="Name"
+      htmlFor="name"
     >
       Name
       <input
         name="name"
         onChange={[Function]}
-        placeholder="Name"
+        placeholder="name"
         type="text"
         value=""
       />
     </label>
     <label
-      htmlFor="Password"
+      htmlFor="password"
     >
       Password
       <input
         name="password"
         onChange={[Function]}
-        placeholder="Password"
+        placeholder="password"
         type="password"
         value=""
       />
     </label>
     <button
-      type="Submit"
+      type="submit"
     >
       Sign Up!
     </button>

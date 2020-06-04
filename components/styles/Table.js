@@ -21,9 +21,8 @@ const Table = styled.table`
       }
     }
     label {
-      display: block;
       padding: 10px 5px;
-
+      display: block;
     }
   }
   tr {
